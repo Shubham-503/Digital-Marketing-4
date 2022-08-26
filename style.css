@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-container{
+    display: flex;
+    padding-left: 7%;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.grow-list{
+    margin: auto 40px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.list-item{
+    display: inline;
+    margin-right: 20px;
+    color: #939393;
+    font-weight: 500;
+
+}
+.list-item:hover{
+    color: black;
+}
+
+.button-group{
+    position: absolute;
+    right: 20px;
+    margin: 7px 0;
+}
+
+.nav-button{
+    background-color: #5955b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.banner-left{
+    position: absolute;
+    top:156px;
+    width: 50%;
+    padding: 0 7%;
+}
+
+.heading-text{
+    font-size: 65px;
+    color: #3c2f60;
+}
+
+.heading-text>span{
+    color: #5955b3;
+}
+
+.description{
+    color: #939393;
+    margin-top: 60px;
+}
+
+.banner-right{
+    position: absolute;
+    right: 0px;
+}
+
+.btn{
+    margin-top: 60px;
+    padding: 15px 40px;
+
+}
